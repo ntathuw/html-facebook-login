@@ -35,3 +35,40 @@ main {
   color: #333333;
   line-height: 1.4;
 }
+
+.right {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1877f2;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #1877f2;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #166fe5;
+}
