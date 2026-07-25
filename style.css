@@ -72,6 +72,11 @@ main {
   width: 400px;
 }
 
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .vertical-divider {
   position: absolute;
   top: 0;
