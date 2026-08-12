@@ -74,7 +74,35 @@ body {
   padding: 20px;
 }
 
+<<<<<<< HEAD
 .login-intro__title {
+=======
+.right-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  width: 400px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: #dadde1;
+}
+
+.left-content h1 {
+>>>>>>> feature/css
   font-size: 20px;
   color: #1877f2;
   font-weight: bold;
