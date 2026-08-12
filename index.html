@@ -6,40 +6,61 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-top">
-    <header>
-      <img src="image/logo.jpg" alt="Facebook" class="logo">
+  <div class="page-layout">
+    <header class="site-header">
+      <img src="image/logo.jpg" alt="Facebook" class="site-header__logo">
     </header>
 
-    <main>
-      <div class="left-col">
-        <div class="left-image">
+    <main class="page-layout__main">
+      <div class="login-intro">
+        <div class="login-intro__image">
           <img src="https://static.xx.fbcdn.net/rsrc.php/yb/r/HpEiFYDux5j.webp" alt="Minh họa Facebook">
         </div>
-        <div class="left-content">
-          <h1>Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của bạn.</h1>
-          <p>Kết nối với bạn bè, gia đình và những người bạn biết.</p>
+        <div class="login-intro__content">
+          <h1 class="login-intro__title">Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của bạn.</h1>
+          <p class="login-intro__text">Kết nối với bạn bè, gia đình và những người bạn biết.</p>
         </div>
       </div>
-      <div class="right-col">
-        <div class="right">
-          <form>
-            <input type="text" name="email" placeholder="Email hoặc số điện thoại">
-            <input type="password" name="password" placeholder="Mật khẩu">
-            <button type="submit">Đăng nhập</button>
-            <a href="#" class="forgot-link">Quên mật khẩu?</a>
-            <div class="divider">hoặc</div>
-            <button type="button" class="create-account">Tạo tài khoản mới</button>
-          </form>
+      <div class="login-form-col">
+        <div class="login-panel">
+          <div class="login-form">
+            <form class="login-form__form">
+              <input class="login-form__input" type="text" name="email" placeholder="Email hoặc số điện thoại">
+              <input class="login-form__input login-form__input--password" type="password" name="password" placeholder="Mật khẩu">
+              <button class="login-form__submit" type="submit">Đăng nhập</button>
+              <a class="login-form__forgot-link" href="#">Quên mật khẩu?</a>
+              <div class="login-form__divider">hoặc</div>
+              <button class="login-form__signup-btn" type="button">Tạo tài khoản mới</button>
+            </form>
+          </div>
+          <div class="login-panel__meta-logo">
+            <img src="image/meta.png" alt="Meta">
+          </div>
         </div>
       </div>
     </main>
 
-    <div class="vertical-divider"></div>
+    <div class="page-layout__divider"></div>
   </div>
 
-  <footer>
-    <p>SET - Facebook &copy; 2026</p>
+  <footer class="site-footer">
+    <ul class="site-footer__languages">
+      <li><a class="site-footer__link" href="#">Tiếng Việt</a></li>
+      <li><a class="site-footer__link" href="#">English</a></li>
+      <li><a class="site-footer__link" href="#">中文(简体)</a></li>
+      <li><a class="site-footer__link" href="#">日本語</a></li>
+      <li><a class="site-footer__link" href="#">한국어</a></li>
+    </ul>
+    <hr class="site-footer__divider">
+    <ul class="site-footer__links">
+      <li><a class="site-footer__link" href="#">Đăng ký</a></li>
+      <li><a class="site-footer__link" href="#">Đăng nhập</a></li>
+      <li><a class="site-footer__link" href="#">Messenger</a></li>
+      <li><a class="site-footer__link" href="#">Video</a></li>
+      <li><a class="site-footer__link" href="#">Trang</a></li>
+      <li><a class="site-footer__link" href="#">Marketplace</a></li>
+    </ul>
+    <p class="site-footer__copyright">Meta &copy; 2026</p>
   </footer>
 </body>
 </html>
